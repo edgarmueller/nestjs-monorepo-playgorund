@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/edgarmueller/nestjs-monorepo-playground/compare/v1.0.0...v1.1.0) (2021-01-04)
+
+
+### Features
+
+* add releaserc ([6fdb28c](https://github.com/edgarmueller/nestjs-monorepo-playground/commit/6fdb28c0bf959339a3308c3d6b87f3e383877e0e))
+
 # 1.0.0 (2021-01-04)
 
 

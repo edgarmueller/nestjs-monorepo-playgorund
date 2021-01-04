@@ -5,6 +5,6 @@ export class LibExampleBService {
   private readonly logger = new Logger(LibExampleBService.name);
 
   sayWhat() {
-    this.logger.log('what up');
+    this.logger.log('whatz up');
   }
 }

@@ -12,8 +12,8 @@
     }],
     ["@semantic-release/github", {
        "assets": [
-        {"path": "dist/**/*.js", "label": "JS distribution"}
-        {"path": "dist/**/*.js.map", "label": "source maps"}
+        {"path": "dist/**/*.js", "label": "JS distribution"},
+        {"path": "dist/**/*.js.map", "label": "source maps"},
         {"path": "dist/**/*.d.ts", "label": "type defs"}
       ]
     }]

@@ -1,11 +1,11 @@
-name: ci-lib-example-a-main
+name: ci-lib-example-a-develop
 
 on:
   push:
     paths:
       - 'packages/lib-example-a/**'
     branches:
-      - main
+      - develop
 
 defaults:
   run:
@@ -37,7 +37,7 @@ jobs:
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
   release:
-    name: Release to next
+    name: Release
     runs-on: ubuntu-20.04
     needs: test
     steps:

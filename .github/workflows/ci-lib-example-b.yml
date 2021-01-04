@@ -1,4 +1,4 @@
-name: ci-lib-example-b-main
+name: ci-lib-example-b
 
 on:
   push:

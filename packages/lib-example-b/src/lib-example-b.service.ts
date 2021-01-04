@@ -4,6 +4,6 @@ import { Injectable, Logger } from '@nestjs/common';
 export class LibExampleBService {
   private readonly logger = new Logger(LibExampleBService.name);
   sayWhat() {
-    this.logger.log('wat uppppppz');
+    this.logger.log('wat up');
   }
 }

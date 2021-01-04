@@ -1,11 +1,15 @@
-name: release-lib-example-a
+name: ci-lib-example-b-main
 
 on:
-  workflow_dispatch:
+  push:
+    paths:
+      - 'packages/lib-example-b/**'
+    branches:
+      - main
 
 defaults:
   run:
-    working-directory: packages/lib-example-a
+    working-directory: packages/lib-example-b
 
 jobs:
   test:
@@ -66,5 +70,4 @@ jobs:
         env:
           CI: true
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: 'npx semantic-release'
+        run: 'npx npm version 0.0.0-${GITHUB_SHA: -7} --git-tag-version=false && npm publish --tag=next'

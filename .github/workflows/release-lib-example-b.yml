@@ -1,11 +1,7 @@
-name: ci-lib-example-b-main
+name: release-lib-example-b
 
 on:
-  push:
-    paths:
-      - 'packages/lib-example-b/**'
-    branches:
-      - main
+  workflow_dispatch:
 
 defaults:
   run:

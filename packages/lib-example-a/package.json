@@ -9,7 +9,8 @@
   "module": "dist/lib-example-a.esm.js",
   "typings": "dist/index.d.ts",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
   "files": [
     "dist"

@@ -70,4 +70,4 @@ jobs:
         env:
           CI: true
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: 'npx npm version 0.0.0-${GITHUB_SHA: -7} --git-tag-version=false && npm publish --tag=next --access public'
+        run: 'npx npm version 0.0.0-${GITHUB_SHA: -7} --git-tag-version=false && npm publish --tag=next'

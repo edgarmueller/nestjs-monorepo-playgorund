@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/edgarmueller/nestjs-monorepo-playground/compare/lib-example-b-v1.0.0...lib-example-b-v1.1.0) (2021-01-04)
+
+
+### Features
+
+* let yo so yo (dummy) ([4c06918](https://github.com/edgarmueller/nestjs-monorepo-playground/commit/4c06918df244d690d0710981f900fa8805f50a14))
+
 # 1.0.0 (2021-01-04)
 
 

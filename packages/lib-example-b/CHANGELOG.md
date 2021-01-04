@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/edgarmueller/nestjs-monorepo-playground/compare/lib-example-b-v1.3.0...lib-example-b-v1.4.0) (2021-01-04)
+
+
+### Features
+
+* and another dummmy change in ex b ([da7c322](https://github.com/edgarmueller/nestjs-monorepo-playground/commit/da7c322e214128ff44a66feafce16317fe4da8f0))
+
 # [1.3.0](https://github.com/edgarmueller/nestjs-monorepo-playground/compare/lib-example-b-v1.2.0...lib-example-b-v1.3.0) (2021-01-04)
 
 

@@ -7,4 +7,8 @@ export class ExampleAService {
   sayWhat() {
     this.logger.log('hello');
   }
+
+  sayYo() {
+    this.logger.log('yo');
+  }
 }

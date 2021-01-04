@@ -1,5 +1,6 @@
 {
   "branches": ["main"],
+  "tagFormat": "lib-example-b-v${version}",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
@@ -9,7 +10,13 @@
       "assets": ["package.json", "package-lock.json", "CHANGELOG.md"],
       "message": "chore(release): lib-example-b ${nextRelease.version}\n\n${nextRelease.notes}"
     }],
-    "@semantic-release/github"
+    ["@semantic-release/github", {
+       "assets": [
+        {"path": "dist/**/*.js", "label": "JS distribution"}
+        {"path": "dist/**/*.js.map", "label": "source maps"}
+        {"path": "dist/**/*.d.ts", "label": "type defs"}
+      ]
+    }]
     ],
     "repositoryUrl": "https://github.com/edgarmueller/nestjs-monorepo-playground"
 }

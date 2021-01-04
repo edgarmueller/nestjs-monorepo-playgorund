@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/edgarmueller/nestjs-monorepo-playground/compare/v1.1.0...v1.2.0) (2021-01-04)
+
+
+### Features
+
+* add new method to example a ([48f3784](https://github.com/edgarmueller/nestjs-monorepo-playground/commit/48f3784a0ffa1f9e0a5c6304e960591a1a13800e))
+
 # [1.1.0](https://github.com/edgarmueller/nestjs-monorepo-playground/compare/v1.0.0...v1.1.0) (2021-01-04)
 
 

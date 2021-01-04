@@ -11,3 +11,4 @@ build
 storybook-static
 yarn.lock
 src/**/*.d.ts
+.npmrc

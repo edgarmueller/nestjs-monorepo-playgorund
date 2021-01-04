@@ -7,7 +7,7 @@ describe('LibExampleBService', () => {
     service = new LibExampleBService();
   });
 
-  it('is defined', () => {
+  it('is indeed defined', () => {
     expect(service).toBeDefined();
   });
 });

@@ -1,10 +1,10 @@
-import { LibExampleAService } from './lib-example-a.service';
+import { ExampleAService } from './example-a.service';
 
 describe('ExampleAService', () => {
-  let service: LibExampleAService;
+  let service: ExampleAService;
 
   beforeEach(() => {
-    service = new LibExampleAService();
+    service = new ExampleAService();
   });
 
   it('is defined', () => {

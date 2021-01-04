@@ -1,2 +1,2 @@
-export * from './lib-example-a.module';
-export { LibExampleAService } from './lib-example-a.service';
+export * from './example-a.module';
+export { ExampleAService as LibExampleAService } from './example-a.service';

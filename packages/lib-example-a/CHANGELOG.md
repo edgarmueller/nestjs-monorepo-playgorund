@@ -1,3 +1,15 @@
+# [@eeveorg/lib-example-a-v1.1.0](https://github.com/edgarmueller/nestjs-monorepo-playground/compare/lib-example-a-v1.0.0...lib-example-a-v1.1.0) (2021-01-16)
+
+
+### Bug Fixes
+
+* dummy change in ex a ([01c69ca](https://github.com/edgarmueller/nestjs-monorepo-playground/commit/01c69ca7c835def5d0fed1632612d17fe39fc069))
+
+
+### Features
+
+* testing mononrepo release ([70782bc](https://github.com/edgarmueller/nestjs-monorepo-playground/commit/70782bcc12d96cb96b119ed6cdfe2b5a1f20cfb2))
+
 # 1.0.0 (2021-01-04)
 
 

@@ -9,6 +9,6 @@ export class ExampleAService {
   }
 
   sayYo() {
-    this.logger.log('yo');
+    this.logger.log('yoo');
   }
 }

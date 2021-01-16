@@ -1,0 +1,16 @@
+{
+  "debug.node.autoAttach": "on",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#ddc65f",
+    "activityBar.foreground": "#000",
+    "activityBar.inactiveForeground": "#000",
+    "activityBarBadge.background": "#fa5639",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#ddc65f",
+    "statusBarItem.hoverBackground": "#fa5639",
+    "statusBar.foreground": "#000",
+    "panel.border": "#313391",
+    "sideBar.border": "#313391",
+    "editorGroup.border": "#313391"
+  }
+}

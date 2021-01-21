@@ -38,12 +38,13 @@ jobs:
     needs: test
     steps:
       - name: Checkout
-        uses: actions/checkout@v1
-      - name: Setup Node.js
+        uses: actions/checkout@v2
+      # Setup .npmrc file to publish to npm
+      - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: 12
-          registry-url: https://registry.npmjs.org
+          node-version: '12.x'
+          registry-url: 'https://registry.npmjs.org'
       - name: load cache
         uses: actions/cache@v1
         id: cache
@@ -61,14 +62,10 @@ jobs:
           CI: true
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npm run build
-      - name: Create .npmrc
-        run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Release
         if: success()
         env:
           CI: true
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: 'npx semantic-release'
